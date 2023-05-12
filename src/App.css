@@ -1,0 +1,21 @@
+body{
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  background-color: #1f1f1f;
+ 
+}
+.sub_title{
+  color: #ffff;
+  font-family: Poppins;
+  font-size: 62px;
+  text-decoration-thickness: 1px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.section_title{
+  justify-content: center;
+  display: flex;
+}
