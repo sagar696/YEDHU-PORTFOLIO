@@ -1,0 +1,174 @@
+.Footer_body{
+  padding-top:33px;
+  max-width: 1980px;
+  justify-content: flex-start;
+  justify-content: center;
+  display: flex;
+
+}
+.footer-area{  
+      height: 395px;
+      width: 100%;
+      opacity:.95;
+      position: relative;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+      justify-content: center;
+      display: flex;
+      max-width: 1980px;
+}
+.footer-bg{
+    background-image: url('/src/assets/img/footer/footer_bg.png'); 
+    height: 395px;
+    width: 100%;
+    opacity: 1;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    max-width: 1980px;
+}
+.footerlogo{
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.footlogo{
+    width: 307px;
+    height: 87.4px;
+    margin: 50.4px 0 0 0 ; 
+    opacity: 100%;
+}
+
+.footer2{
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  width: 495px;
+  align-items: center;
+  padding-top: 49.2px;
+  padding-bottom: 20px;
+
+
+}
+.footer_list_title{
+  font-size: 15px;
+  font-family: Poppins;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.footer_icons_list{
+  list-style: none;  
+  justify-content: center;
+  display: flex;
+  color:#fff ;
+}
+.HashGate-All-Rights-Reserved_a {
+    padding: 20px 0 48.4px 0;
+    color: #fff;
+    justify-content: center;
+    display: flex;
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    text-decoration: none; 
+  }
+  .footer3{
+    display: flex; 
+    justify-content: center;
+    padding-top: 10px;
+  }
+  .social_icons{
+    padding: 15.5px 20px;
+  }
+
+  /*********media query*****/
+
+  @media only screen and (max-width:768px){
+    .footlogo{
+      width: 222px;
+      height: auto;
+      margin-top: 31px;
+    }
+    .footer_list_title{
+      padding-left: 25px;
+    }
+    .social_icons img{
+      width: 25px;
+      height: 25px;
+    }
+    .HashGate-All-Rights-Reserved_a{
+      font-size: 12px;
+      padding-bottom: 0;
+    }
+    .footer-bg {
+      height: 325px;
+    }
+    .footer-area{
+      height:325px;
+    }
+    .Footer_body {
+      padding-top: 23px;
+  }
+  }
+  @media only screen and (max-width:450px){
+    .footer-bg {
+      height: 190px;
+    }
+    .footer_list_title{
+      font-size: 7px;
+    }
+    .footer2{
+      width: 100%;
+      padding-top: 0px;
+      padding-bottom: 3px;
+    }
+
+    .footer-area{
+      height:190px;
+    }
+
+
+    .footlogo{
+      width: 131.6px;
+      height: auto;
+      margin: 32.2px;
+      margin-bottom: 21px;
+    }
+    .social_icons img{
+      width: 13px;
+      height: 13px;
+      
+      padding: 0;  
+    }
+    .social_icons {
+      padding: 10px;
+    }
+    .HashGate-All-Rights-Reserved_a {
+      padding: 0px 0 32.2px 0;
+      color: #fff;
+      justify-content: center;
+      display: flex;
+      font-family: Karla;
+      font-size: 7px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      text-decoration: none; 
+
+    }
+    .footer3 {
+      padding-top: 0px;
+  }
+  }

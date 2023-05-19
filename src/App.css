@@ -1,21 +1,14 @@
+
 body{
-  margin: 0;
-  padding: 0;
-  color: #fff;
-  background-color: #1f1f1f;
- 
+    max-width: 1980px;
+    min-width: 300px;
+    justify-content: center;
+    background-color: #000 !important;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: #fff !important;
 }
-.sub_title{
-  color: #ffff;
-  font-family: Poppins;
-  font-size: 62px;
-  text-decoration-thickness: 1px;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-}
-.section_title{
-  justify-content: center;
-  display: flex;
+*{
+    font-family: Poppins;
 }

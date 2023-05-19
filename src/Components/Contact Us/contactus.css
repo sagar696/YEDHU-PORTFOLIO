@@ -1,0 +1,44 @@
+
+.contactus_form{
+   width: 932px;
+   padding-top: 49px;
+   
+}
+.forminput{
+    border-width: 0;
+    background-image: linear-gradient(120deg, #ff276d 1%, #8d1b83 114%);
+    border-radius: 38px;
+    min-height:76.5px;
+    min-width: 458px;
+    padding-left: 25px;
+}
+.forminput::placeholder{
+    color: #fff;
+}
+.message{
+    width: 100%;
+    margin: 0px 0;
+    padding: 30px 0 200px 25px;
+}
+.email{
+    margin: 27px 0;
+}
+.phone{
+    margin: 0 0 0 14px;
+}
+.dropdown{
+    margin: 0 0 0 14px;
+}
+.submit_button{
+    background-image: linear-gradient(258deg, #8d1b83, #ff276d 90%);
+    height: 76.5px;
+    border-radius: 38px;
+    font-size: 25px;
+    font-weight: 800;
+    color: #fff;   
+}
+.button_div{
+    padding-top: 27px;
+    justify-content: center;
+    display: flex;
+}

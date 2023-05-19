@@ -1,0 +1,48 @@
+
+.our{
+    color: #fff;
+    font-family: Poppins;
+    font-size: 62px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.work{
+    font-weight: 800;
+}
+.ourwork_paragraph{
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    font-family: Poppins;
+}
+.slide_header_list{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    color: #fff;
+    background: transparent;
+}
+.slide_header_list li a{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    justify-content: center;
+    display: flex;
+}

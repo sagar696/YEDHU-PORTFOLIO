@@ -1,0 +1,140 @@
+.web_Design_title {
+    font-family: Poppins;
+    font-size: 62px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    justify-content: center;
+    display: flex;
+    padding: 49px 0 47px 0;
+  }
+  .web_design_title_span{
+    font-weight: 300;
+  }
+  .website_content_paragraph {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    max-width: 1248px;
+    text-align: center;
+    padding-top: 54px;
+    height: 214px;
+  }
+  
+  .website_list_unordered li {
+    list-style: none;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .website_lists {
+    padding-top: 52px;
+  }
+  
+  .websites_button button {
+    background-image: url(../../assets//img//button_backgrond//button_bg.png);
+    background-size: cover;
+    border-width: 0px;
+    max-width: 536px;
+    width: 536px;
+ 
+    height: 107px;
+    object-fit: contain;
+    color: #fff;
+  }
+  
+  .websites_button button a {
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .websites_button {
+    justify-content: center;
+    display: flex;
+    padding-top: 70.2px;
+  }
+  
+  .websites_border {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    padding-top: 57.8px;
+    width: 80%;
+    align-items: center;
+  }
+  
+  .line1 {
+    margin-top: 2px;
+    background-color: #fff;
+    width: 432px;
+    height: 1px;
+  }
+  
+  .or {
+    padding: 0 69px;
+  }
+  
+  .line2 {
+    margin-top: 2px;
+    background-color: #fff;
+    width: 432px;
+    height: 1px;
+  }
+  
+  .explore_our_work_title {
+    padding: 57px 0 71px 0;
+    font-family: Poppins;
+    font-size: 60px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .explore_our_work_work {
+    font-weight: 800;
+  }
+  
+  .explore_our_work_image00 {
+    max-width: 1024px;
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+    object-fit: contain;
+  }
+  
+  .explore_our_work_image {
+    justify-content: center;
+    display: flex;
+    padding-bottom: 140px;
+  }
+ 
