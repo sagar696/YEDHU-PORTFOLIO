@@ -1,0 +1,181 @@
+.website_title{
+    display: flex;
+    justify-content: center;
+  } 
+  .website_platform_images{
+    display: flex;
+    justify-content: center;
+    margin: 0px 10px;
+  }
+  .website_platform_images img{
+    width: 43px;
+  }
+  .website_content_paragraph {
+      font-size: 13px;
+      padding: 33px 25px 10px ;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 2;
+      letter-spacing: normal;
+      text-align: center;
+      font-family: Poppins;
+  }
+  .website_lists span{
+    display: grid;
+    font-size: 15px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+  }
+  .websites_button{
+    background-image: url('../../assets//img/common/background_button_image.jpeg'); 
+    min-width: 278px;
+    width: 278px;
+    border-width: 0px;
+    min-height: 55px;
+    margin:36px 21.4px;
+    background-size: cover;
+  }
+  .websites_button span{
+     font-size: 25px; 
+     font-weight: 600;
+     font-stretch: normal;
+     font-style: normal;
+     line-height: normal;
+     letter-spacing: normal;
+     text-align: center;
+  }
+  .explore_our_work_title{
+    font-size: 25px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.8;
+    letter-spacing: normal;
+    text-align: center;
+  }
+  .explore_our_work{
+    padding: 28px 0 35px;
+  }
+  .explore_image_ourwork img{
+    margin: 0 0 23px 0px;
+  
+  }
+  
+  
+  
+  
+  
+  
+  @media only screen and (min-width:0){
+    .website_title{
+  
+      font-size: 21px;
+      padding: 27px 25px 23px 25px;
+    }
+    .website_platform_images{
+      margin:0 10px;
+    }
+    .website_platform_images img{
+      margin: 0 5px;
+    }
+  }
+  
+  @media only screen and (min-width:450px){
+    .website_title{
+      font-size: 35px;
+      padding-top:38px;
+    }
+    .website_platform_images img{
+      width: 60px;
+      margin: 0 10px;
+    }
+    .website_content_paragraph {
+      font-size: 18px;
+      padding: 33px 25px;
+  }
+  .website_lists span{
+    font-size: 18px;
+  }
+  .websites_button{
+    width: 350px;
+    height: 80px;
+    margin:45px 21.4px;
+  }
+  .websites_button span{
+     font-size: 29px;
+  }
+  .explore_our_work_title{
+    font-size: 35px;
+  }
+  }
+  @media only screen and (min-width:750px){
+    .website_title{
+      font-size: 45px;
+      padding-top:49px;
+    }
+    .website_platform_images img{
+      width: 78px;
+      margin: 0 10px;
+    }
+    .website_content_paragraph {
+      font-size: 18px;
+      padding: 33px 25px;
+  }
+  .website_lists span{
+    font-size: 25px;
+  }
+  .websites_button{
+    width: 450px;
+    height: 95px;
+    margin:55px 21.4px;
+  }
+  .websites_button span{
+    font-size: 33px;
+  }
+  .explore_our_work_title{
+    font-size: 45px;
+  }
+  .explore_our_work{
+    padding: 45px 0 35px;
+  }
+  }
+  @media only screen and (min-width:991px){
+    .website_title{
+      font-size: 62px;
+      padding-top:49px;
+    }
+    .website_platform_images img{
+      width: 138px;
+      margin: 47px 18px;
+    }
+    .website_content_paragraph {
+      font-size: 20px;
+      padding: 33px 25px;
+  }
+  .website_lists span{
+    font-size: 30px;
+  }
+  .websites_button{
+    width: 536px;
+    height: 107px;
+    margin:70.2px 21.4px;
+  }
+  .websites_button span{
+    font-size: 26px;
+  }
+  .explore_our_work_title{
+    font-size: 60px;
+  }
+  .explore_our_work{
+    padding: 57px 0 35px;
+  }
+  .explore_image_ourwork img{
+    margin: 71px 0 140px 0px;
+  
+  }
+  
+  }

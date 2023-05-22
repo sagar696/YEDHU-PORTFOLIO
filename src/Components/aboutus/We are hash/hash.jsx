@@ -1,24 +1,17 @@
 import React from "react";
-import '../../App.css';
 import './hash.css';
 
 
 const Hash  =()=> {
  return(
   <div className="container">
-     <div className="section_title">
-     <span className="sub_title"><span className="sub_title1" >We are</span> HashGate</span>
+     <div className="section_title" style={{justifyContent:'center',display:"flex"}}>
+     <span className="sub_title" style={{fontWeight:"800"}}><span className="sub_title1" style={{fontWeight:"300"}}>We are</span> HashGate</span>
      </div> 
      <div className="container-fluid">
         <p className="about_content">
-        We are a well-versed and established  IT Service Company, located in the fast-paced technology-driven wildlife of UAE, we are a multi-faceted company that caters to all things digital and technological. 
-Want to build a website for your business? We got you covered.
-Got big plans for a product you want to sell? We know the market, and we can help you with your plan.
-Looking for a team to help you manage your business? We have the men for that job. 
-We offer  a full spectrum of digital solutions, web services, media & content production that cater to every client’s specific needs. Whether you are an emerging startup or a seasoned industry powerhouse, our main expertise in IT, Media, Design, and multi-sectoral business solutions will help you achieve new heights in your business goals that you 
-never knew were possible.
-We are a one-stop destination for everything you need if you want to digitize and modernize your company. At HashGate, we always push the limits in IT solutions. We specialize in multiple services from Cross-platform development, Mobile Application Development, Web Development, UI-UX Design, Branding, Media, production, and many more. 
-        </p>
+        We do not believe in conformity. In order to make your way in the rapidly evolving technological landscape, you think limitlessly. That is why we at HashGate always strive to create innovative platforms and unique digital business models for our clients based on their individual needs, which work within a budget without cutting corners on the quality of the final output. All our outputs are built on the foundation of innovative product building, 
+        solution-based business plans, and optimized multi-integrated platforms that meet international standards.</p>
      </div>
 
   </div>

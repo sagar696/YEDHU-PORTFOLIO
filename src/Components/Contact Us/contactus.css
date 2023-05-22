@@ -1,72 +1,412 @@
-.form_input{
+.form_input {
     background-image: linear-gradient(50deg, #ff276d 1%, #8d1b83 98%);
     border-radius: 25.5px;
-    border-width: 0px;
+    border: none;
     color: #fff;
     padding-left: 17.9px;
     font-size: 12px;
     text-transform: capitalize;
 }
-.form_input::placeholder{
+
+.form_input::placeholder {
     color: #fff;
- 
 }
-@media only screen and (min-width:0px){
-    .form-group{
+
+.reach {
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+}
+
+.reach_icons {
+    margin: 0 0 24.1px;
+    width: 29px;
+    height: auto;
+}
+
+.call,
+.mail,
+.location {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+.call a,
+.mail a,
+.location a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 7px;
+}
+
+#location_img {
+    margin-bottom: 14px;
+}
+
+.contact_us_logo {
+    justify-content: center;
+    display: flex;
+    max-width: 992px;
+}
+
+.contact_us_logo_footer {
+    max-width: 308.6px;
+    max-height: auto;
+    margin: 63.7px 0 21px;
+}
+
+.contact_us_logo_footer {
+    margin: 140px 0 29.6px ;
+}
+
+.footer_list_main {
+    display: flex;
+    justify-content: center;
+    max-width: 992px;
+}
+
+.lists a {
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+}
+.Social_media_icons_contact_us{
+    justify-content:center;
+    display: flex;
+}
+.reserved{
+    justify-content: center;
+    display: flex;
+}
+.custom-select{
+    .custom-select {
+        background-image: url('../../assets/img//contactus//Icon\ ionic-md-arrow-dropdown.svg');
+        background-repeat: no-repeat;
+        background-position: right center;
+        padding-right: 20px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+      }
+      
+      .custom-select::-ms-expand {
+        display: none; /* Hide the default arrow in Internet Explorer */
+      }
+      
+}
+@media only screen and (min-width: 0px) {
+    .form-group {
         justify-content: center;
         display: flex;
     }
-    .form_input{
+    
+    .form_input {
         width: 100%;
         margin-top: 15px;
-        min-height:50.9px;
+        min-height: 50.9px;
     }
-    .form_input::placeholder{
-       font-size: 12px;
+    
+    .form_input::placeholder {
+        font-size: 12px;
     }
-    .contactus{
+    
+    .contactus {
         font-size: 28px;
         padding: 103px 0 41.1px;
-
     }
-    .form_message{
+    
+    .form_message {
         width: 100%;
-        min-height:162px;
+        min-height: 162px;
         background-image: linear-gradient(115deg, #ff276d 2%, #8d1b83 108%);
         border-radius: 19px;
-        border-width: 0px;
+        border: none;
         margin-top: 18.2px;
     }
-    .form_submit{
+    
+    .form_submit {
         background-image: linear-gradient(115deg, #ff276d 2%, #8d1b83 90%);
-        border-width: 0px;
+        border: none;
         width: 80%;
         min-height: 50.9px;
         border-radius: 19px;
         margin-top: 18.2px;
     }
-    .form_submit:hover{
+    
+    .form_submit:hover {
         opacity: 0.5;
     }
-    .submit_button{
+    
+    .submit_button {
         justify-content: center;
         display: flex;
     }
-    .custom-dropdown{
+    
+    .custom-dropdown {
         color: #fff;
         font-size: 12px;
         padding-left: 17.9px;
         border-radius: 38px;
     }
-    .custom-dropdown option{
+    
+    .custom-dropdown option {
         color: #ffffff;
         font-size: 12px;
         padding-left: 17.9px;
-        background-color: #8d1b83;
+        background-image: linear-gradient(115deg, #000000 10%, #8d1b83 90%);
     }
-    .form_message::placeholder{
+    
+    .form_message::placeholder {
         color: #fff;
         font-size: 12px;
     }
+}
 
+@media only screen and (max-width: 767.9px) {
+    .lists a {
+        font-size: 10px;
+        text-decoration: none;
+        color: #fff;
+        justify-content: center;
+        display: flex;
+    }
+    
+    .contact_us_logo_footer {
+        max-width: 131px;
+        max-height: auto;
+        margin: 63.7px 0 21px;
+    }
+    
+    .reach_us_at {
+        font-size: 28px;
+        justify-content: center;
+        display: flex;
+        padding-bottom: 30px;
+    }
+    .Social_media_icons_contact_us img{
+        max-width: 22.7px;
+        max-height: 22px;
+        margin: 29px 0 10.6px;
+    }
+    .Social_media_icons_contact_us{
+        justify-content: center;
+        display: flex;
+    }
+    .Social_media_icons_contact_us img{
+        margin: 25px 10px;
+
+    }
+    .reserved{
+        font-size: 10px;
+        padding-bottom: 22.3px;
+    }
+    .Image_contact_us{
+        background-image: url(../../assets//img//contactus//descomposition-person-wearing-vr-glasses@3x.png);
+          background-repeat: no-repeat;
+          background-size:  cover;
+
+    }
+    .form_submit {
+        height: 50px;
+        font-size: 25px;
+        color: #fff;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    .reach_us_at {
+        display: none;
+    }
+    
+    .reach_icons {
+        margin: 0 0 24.1px;
+        width: 29px;
+        height: auto;
+        max-height: 28px;
+        max-width: 29px;
+    }
+    
+    .contact_us_logo_footer {
+        max-width: 131px;
+        max-height: auto;
+        margin: 63.7px 0 21px;
+    }
+    
+    .lists a {
+        font-size: 7px;
+        text-decoration: none;
+        color: #fff;
+        justify-content: center;
+        display: flex;
+    }
+    .Social_media_icons_contact_us img{
+        max-width: 13.7px;
+        max-height: 14px;
+        margin: 19px 0 17.6px;
+    }
+    .Social_media_icons_contact_us{
+        justify-content: center;
+        display: flex;
+    }
+    .Social_media_icons_contact_us img{
+        margin: 15px 10px;
+
+    }
+    .reserved{
+        font-size: 7px;
+        padding-bottom: 19.3px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .bgimage {
+        width: 500px;
+        height: 500px;
+    }
+    
+    .form_contact {
+        max-width: 932px;
+    }
+    
+    .contactus {
+        font-size: 60px;
+    }
+    
+    .mail {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .reach_icons {
+        margin: 50px 0 54.8px;
+        width: 100%;
+        height: auto;
+        max-width: 67px;
+    }
+    
+    .call a,
+    .mail a,
+    .location a {
+        font-size: 16px;
+    }
+    
+    .reach_us_at {
+        font-size: 40px;
+        justify-content: center;
+        display: flex;
+    }
+    
+    .reach_icons {
+        margin: 50px 0 24.1px;
+        width: 29px;
+        height: auto;
+        max-height: 68px;
+        max-width: 68px;
+    }
+    
+    .lists a {
+        font-size: 15px;
+        text-decoration: none;
+        color: #fff;
+        justify-content: center;
+        display: flex;
+    }
+    .Social_media_icons_contact_us{
+        max-width:992px
+    }
+    .Social_media_icons_contact_us img{
+        max-width: 32.7px;
+        max-height: 32px;
+        margin: 40px 25px;
+    }
+    .Social_media_icons_contact_us{
+        justify-content: center;
+        display: flex;
+    }
+    .reserved{
+        font-size: 16px;
+        padding-bottom: 32.2px;
+    }
+    .Image_contact_us{
+        background-image: url(../../assets//img//contactus//descomposition-person-wearing-vr-glasses@3x.png);
+          background-repeat: no-repeat;
+          background-size:  cover;
+
+    }
+    .form_submit {
+        height: 80px;
+        font-size: 25px;
+        color: #fff;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .form_input {
+        width: 100%;
+        margin-top: 15px;
+        min-height: 76.5px;
+        border-radius: 38px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        padding-left: 34px;
+        font-size: 19px;
+    }
+    
+    .form_message {
+        border-radius: 38px;
+    }
+    
+    .form_input::placeholder {
+        font-size: 19px;
+    }
+    
+    .form_message::placeholder {
+        font-size: 19px;
+        padding-left: 14px;
+    }
+    
+    .form_submit {
+        height: 100px;
+        font-size: 25px;
+        color: #fff;
+        width: 100%;
+        margin-top: 20px;
+        border-radius: 34px;
+    }
+    .custom-dropdown {
+        color: #fff;
+        font-size: 19px;
+        padding-left: 17.9px;
+        border-radius: 98px;
+        position: relative;
+    }
+    
+    .custom-dropdown option {
+        color: #ffffff;
+        font-size: 19px;
+        padding-left: 17.9px;
+        margin-top: -50px;
+        position: absolute;
+    }
+    
+    .border_line {
+        margin: 49.1px 0 35px;
+    }
+    
+    .reach_us_at {
+        font-size: 60px;
+        justify-content: center;
+        display: flex;
+    }
 }

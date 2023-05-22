@@ -1,0 +1,85 @@
+.img000 {
+    margin: 17px 19.7px 0 0;
+  }
+  
+  .team-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .slick-next,
+  .slick-prev {
+    display: none !important;
+  }
+
+  
+  .team-grid img {
+    margin-bottom: 20px; /* Adjust the spacing between slides */
+  }
+  
+  @media only screen and (min-width: 0) {
+    .img000 {
+      width: 184px; /* Set the desired width */
+      height: 230px; /* Set the desired height */
+    }
+    .slick-slide {
+        margin: 15px 10px; /* Adjust the value as per your desired spacing */
+      }
+  }
+  
+
+  @media only screen and (min-width:480px){
+    .slick-slide {
+        margin: 20px 15px; /* Adjust the value as per your desired spacing */
+      }
+  }
+  @media only screen and (min-width: 768px) {
+    .slick-slide {
+      margin: 20px 15px; /* Adjust the value as per your desired spacing */
+    }
+  }
+  
+  @media only screen and (min-width: 991px) {
+    .slick-slide {
+      margin: 20px 15px; /* Adjust the value as per your desired spacing */
+    }
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    .desktop_hide {
+      display: none;
+    }
+    .img000 {
+      max-width: 320px;
+      max-height: 100%;
+      width: 320px; /* Set the desired width */
+      height: auto; /* Set the desired height */
+    }
+    .img000 img {
+      width: 320px;
+      height: auto;
+    }
+    .slick-slide {
+      margin: 20px 15px; /* Adjust the value as per your desired spacing */
+    }
+  }
+  
+  @media only screen and (min-width: 1500px) {
+    .desktop_hide {
+      display: none;
+    }
+    .img000 {
+      max-width: 384px;
+      max-height: 100%;
+      width: 384px; /* Set the desired width */
+      height: 480px; /* Set the desired height */
+    }
+    .img000 img {
+      width: 385px;
+      height: auto;
+    }
+    .slick-slide {
+      margin: 20px 20px; /* Adjust the value as per your desired spacing */
+    }
+  }
+  

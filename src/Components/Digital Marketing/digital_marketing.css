@@ -1,0 +1,12 @@
+.swiper-container {
+    width: 100%;
+    height: auto; /* Adjust the height as needed */
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+  }

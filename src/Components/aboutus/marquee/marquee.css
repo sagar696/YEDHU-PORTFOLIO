@@ -1,0 +1,49 @@
+.sub_title_marquee {
+    font-size: 25px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    padding: 26px 0 32px 0;
+}
+
+.marquee_center {
+    padding: 27px 0 32px;
+}
+
+.marquee_group {
+    background-image: url('../../../assets/img/aboutus/background_image/about_us_bg.png');
+    min-height: 263px;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media only screen and (min-width: 450px) {
+    .sub_title_marquee {
+        font-size: 35px;
+        padding: 26px 0 32px;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    .sub_title_marquee {
+        font-size: 45px;
+    }
+}
+
+@media only screen and (min-width: 991px) {
+    .sub_title_marquee {
+        font-size: 55px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .sub_title_marquee {
+        font-size: 62px;
+    }
+}
